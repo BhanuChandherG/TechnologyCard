@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+
+.card-item {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 48px;
+  max-width: 323px;
+  list-style-type: none;
+}
+
+.Courseheading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-style {
+  width: 80px;
+}
+
+
+.cards-app-container {
+  display: flex;
+  background-color: #5592c5;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-list-container {
+    margin-top: 96px;
+  }
+}
+
+.heading {
+  text-align: center;
+  color: #e0d4d6;
+  font-family: 'roboto';
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 24px;
+  max-width: 625px;
+}
+.description {
+  text-align: center;
+  color: #171f46;
+  font-family: 'roboto';
+  font-size: 28px;
+  font-weight: bold;
+}
+.card-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  max-width: 1160px;
+}
